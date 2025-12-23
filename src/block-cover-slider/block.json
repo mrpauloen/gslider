@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gslider/block-cover-slider",
+  "title": "GSlider: Cover Slider",
+  "category": "widgets",
+  "icon": "images-alt2",
+  "description": "Switch for cover slider (editor-only UI, frontend assets).",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "gslider",
+  "attributes": {
+    "enabled": { "type": "boolean", "default": true },
+    "intervalMs": { "type": "number", "default": 10000 },
+    "fadeMs": { "type": "number", "default": 900 },
+    "overlayDim": { "type": "number", "default": 30 },
+    "targetCoverSelector": { "type": "string", "default": ".wp-block-cover.WPBlockCoverSlider" },
+    "sourceSelector": { "type": "string", "default": ".czik-hero-rotator__src" },
+    "debugHighlight": { "type": "boolean", "default": true }
+  }
+}

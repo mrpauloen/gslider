@@ -1,0 +1,13 @@
+{
+  "name": "gslider",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build src/block-cover-slider/index.js --output-path=build",
+    "start": "wp-scripts start src/block-cover-slider/index.js --output-path=build"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.0.0",
+    "sass": "^1.79.1"
+  }
+}
